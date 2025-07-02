@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: eval-backend
+    runtime: docker
+    repo: https://github.com/andrewtdiz/eval-sheets.git
+    plan: starter

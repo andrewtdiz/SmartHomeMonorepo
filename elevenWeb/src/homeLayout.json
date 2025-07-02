@@ -1,0 +1,111 @@
+{
+    "smartHome": {
+        "name": "Smart Home Eleven™️",
+        "rooms": {
+            "livingRoom": {
+                "name": "Living Room",
+                "devices": {
+                    "light": {
+                        "type": "light",
+                        "on": true
+                    },
+                    "thermostat": {
+                        "type": "thermostat",
+                        "currentTemperature": 72,
+                        "targetTemperature": 72,
+                        "mode": "cooling",
+                        "on": true
+                    }
+                },
+                "theme": {
+                    "backgroundColor": "blue-50",
+                    "borderColor": "blue-200"
+                }
+            },
+            "kitchen": {
+                "name": "Kitchen",
+                "devices": {
+                    "light": {
+                        "type": "light",
+                        "on": false,
+                        "brightness": 0
+                    },
+                    "dishwasher": {
+                        "type": "dishwasher",
+                        "on": true,
+                        "metadata": {
+                            "temperature": "medium",
+                            "cycle": "normal_wash",
+                            "endTimestamp": 1719245200
+                        }
+                    },
+                    "oven": {
+                        "type": "oven",
+                        "on": true,
+                        "metadata": {
+                            "currentTemperature": 425,
+                            "targetTemperature": 450,
+                            "status": "preheating"
+                        }
+                    }
+                }
+            },
+            "bedroom": {
+                "name": "Bedroom",
+                "devices": {
+                    "mainLight": {
+                        "type": "light",
+                        "on": true
+                    },
+                    "nightstandLight": {
+                        "type": "light",
+                        "on": true
+                    }
+                }
+            },
+            "bathroom": {
+                "name": "Bathroom",
+                "devices": {
+                    "light": {
+                        "type": "light",
+                        "on": false
+                    },
+                    "shower": {
+                        "type": "shower",
+                        "on": false,
+                        "waterTemperature": 102,
+                        "unit": "fahrenheit",
+                        "targetTemperature": 105
+                    }
+                }
+            },
+            "laundryRoom": {
+                "name": "Laundry Room",
+                "devices": {
+                    "light": {
+                        "type": "light",
+                        "on": true
+                    },
+                    "washer": {
+                        "type": "washer",
+                        "on": true,
+                        "metadata": {
+                            "endTimestamp": 1719235200,
+                            "cycle": "normal",
+                            "temperature": "medium"
+                        }
+                    },
+                    "dryer": {
+                        "type": "dryer",
+                        "on": true,
+                        "metadata": {
+                            "endTimestamp": 1719245200,
+                            "cycle": "normal",
+                            "temperature": "medium"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
